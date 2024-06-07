@@ -1,0 +1,239 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* .hero {
+    background: #2681db;
+} */
+
+.section_2 {
+    padding: 60px 0;
+}
+
+.section_2 h1 {
+    font-size: 2em;
+}
+
+.section_2 p {
+    font-size: 1.2em;
+}
+
+.section_last {
+    padding: 60px 0;
+}
+
+.section_last h1 {
+    font-size: 2.5em;
+}
+
+.section_last p {
+    font-size: 1.2em;
+}
+
+.footer {
+    background: #343a40;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer img {
+    width: 8%;
+    height: 18px;
+}
+#navbarNav{
+    background-color: #343a4000
+}
+@media (max-width: 768px) {
+    .hero-buttons button {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .container h1{
+        font-family: "Abcgintonord 800", sans-serif;
+        font-size: 29px;
+        font-weight: 800;
+
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-buttons button {
+        width: 29%;
+        margin-top: -10px;
+        font-size: 9px;
+    }
+    .container h1{
+        font-family: "Abcgintonord 800", sans-serif;
+        font-size: 29px;
+        font-weight: 800;
+    }
+    .first_h1 p{
+        font-size: 15px;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    .hero-buttons button {
+        width: 29%;
+        margin-top: -10px;
+        font-size: 9px;
+    }
+    .container h1{
+        font-family: "Abcgintonord 800", sans-serif;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .first_h1 p{
+        font-size: 8px;
+    }
+
+    .footer-section {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+
+        #navbarNav{
+        background-color:#343a4000;
+        }
+    }
+
+ .logo img {
+    height: 32px; 
+    width: 120px;
+    margin-left: 100px;
+
+   
+}
+
+.navbar-brand img{
+    height: 32px; 
+    width: 120px;
+    margin-left: 25px;
+    
+
+}
+
+.btn-light{
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 24px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        margin-left: 35px;
+    }
+}
+/* .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+} */
+
+/* a .nav-links{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent; 
+}*/
+
+.login-button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 40px;
+    margin-right: 100px;
+}
+
+.hero-outer{
+    background-image: url('hero-bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero {
+   
+    height: 100vh;
+    display: flex;
+    margin-top: -60px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.first_h1{
+    font-family: "Abcgintonord 800", sans-serif;
+    font-size: 54px;
+    font-weight: 800;
+}
+/* first_h1 p{
+    font-size: 80px;
+    font-weight: 400;
+}
+.navbar{
+    background-color: transparent;
+} */
+
+/* p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    font-weight: 500;
+} */
+/*
+.hero {
+    background-image: url('hero-bg.jpg'); /* Path to your background image 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    margin-top: -72px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+} */
+/* ======================================================= */
